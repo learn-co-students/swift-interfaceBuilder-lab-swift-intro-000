@@ -49,7 +49,7 @@ That's it! Not so complicated, is it? Let's walk through the creation of this ap
 9. Add an **Orange** label to the orange square. Don't forget to make its text color blue, too!
 10. Add a **Teal** label to the teal square.
 11. Add a *Yellow** label to the yellow square.
-12. You're almost done! One more label to add: Drag a new label to the center of the main view. Change its text to **Simon Says**. You can leave its color as black (or you can change it if you're feeling adventurous).
+12. You're almost done! One more label to add: Drag a new label to the center of the main view. Change its text to **Simon Says**. You can leave its color as  black (or you can change it if you're feeling adventurous).
 13. Your interface should look pretty close to the example above. One problem: The background is white, not grey. Change the background so it is grey. (Hint: Select the main view. Bring up its Attribute Inspector, and change **Background Color** to be grey.)
 14. Just one more thing: Set your view controller to the _initial view controller_. Remember: You can set this in the Attributes Inspector.
 
