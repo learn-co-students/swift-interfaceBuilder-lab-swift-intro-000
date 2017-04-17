@@ -59,4 +59,6 @@ And you're done! Take a look at the object listing (you do remember where that i
 
 You can build and run your application in the simulator to see what it looks like. It doesn't do anything yet, but you've now successfully laid out a graphical interface using Interface Builder, and that's half the battle!
 
+Did It!
+
 <a href='https://learn.co/lessons/InterfaceBuilderLab' data-visibility='hidden'>View this lesson on Learn.co</a>
