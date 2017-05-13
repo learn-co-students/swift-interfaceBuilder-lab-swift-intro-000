@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAA976D01EC7A0FE008AFBFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA976CF1EC7A0FE008AFBFA /* AppDelegate.swift */; };
+		EAA976D21EC7A0FE008AFBFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA976D11EC7A0FE008AFBFA /* ViewController.swift */; };
+		EAA976D51EC7A0FE008AFBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA976D31EC7A0FE008AFBFA /* Main.storyboard */; };
+		EAA976D71EC7A0FE008AFBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA976D61EC7A0FE008AFBFA /* Assets.xcassets */; };
+		EAA976DA1EC7A0FE008AFBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA976D81EC7A0FE008AFBFA /* LaunchScreen.storyboard */; };
+		EAA976E51EC7A0FE008AFBFA /* Simon_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA976E41EC7A0FE008AFBFA /* Simon_GameTests.swift */; };
+		EAA976F01EC7A0FE008AFBFA /* Simon_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA976EF1EC7A0FE008AFBFA /* Simon_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA976E11EC7A0FE008AFBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA976C41EC7A0FE008AFBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA976CB1EC7A0FE008AFBFA;
+			remoteInfo = "Simon Game";
+		};
+		EAA976EC1EC7A0FE008AFBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA976C41EC7A0FE008AFBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA976CB1EC7A0FE008AFBFA;
+			remoteInfo = "Simon Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAA976CC1EC7A0FE008AFBFA /* Simon Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simon Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA976CF1EC7A0FE008AFBFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAA976D11EC7A0FE008AFBFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAA976D41EC7A0FE008AFBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA976D61EC7A0FE008AFBFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA976D91EC7A0FE008AFBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAA976DB1EC7A0FE008AFBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA976E01EC7A0FE008AFBFA /* Simon GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simon GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA976E41EC7A0FE008AFBFA /* Simon_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simon_GameTests.swift; sourceTree = "<group>"; };
+		EAA976E61EC7A0FE008AFBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA976EB1EC7A0FE008AFBFA /* Simon GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simon GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA976EF1EC7A0FE008AFBFA /* Simon_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simon_GameUITests.swift; sourceTree = "<group>"; };
+		EAA976F11EC7A0FE008AFBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA976C91EC7A0FE008AFBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA976DD1EC7A0FE008AFBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA976E81EC7A0FE008AFBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA976C31EC7A0FE008AFBFA = {
+			isa = PBXGroup;
+			children = (
+				EAA976CE1EC7A0FE008AFBFA /* Simon Game */,
+				EAA976E31EC7A0FE008AFBFA /* Simon GameTests */,
+				EAA976EE1EC7A0FE008AFBFA /* Simon GameUITests */,
+				EAA976CD1EC7A0FE008AFBFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA976CD1EC7A0FE008AFBFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA976CC1EC7A0FE008AFBFA /* Simon Game.app */,
+				EAA976E01EC7A0FE008AFBFA /* Simon GameTests.xctest */,
+				EAA976EB1EC7A0FE008AFBFA /* Simon GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA976CE1EC7A0FE008AFBFA /* Simon Game */ = {
+			isa = PBXGroup;
+			children = (
+				EAA976CF1EC7A0FE008AFBFA /* AppDelegate.swift */,
+				EAA976D11EC7A0FE008AFBFA /* ViewController.swift */,
+				EAA976D31EC7A0FE008AFBFA /* Main.storyboard */,
+				EAA976D61EC7A0FE008AFBFA /* Assets.xcassets */,
+				EAA976D81EC7A0FE008AFBFA /* LaunchScreen.storyboard */,
+				EAA976DB1EC7A0FE008AFBFA /* Info.plist */,
+			);
+			path = "Simon Game";
+			sourceTree = "<group>";
+		};
+		EAA976E31EC7A0FE008AFBFA /* Simon GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA976E41EC7A0FE008AFBFA /* Simon_GameTests.swift */,
+				EAA976E61EC7A0FE008AFBFA /* Info.plist */,
+			);
+			path = "Simon GameTests";
+			sourceTree = "<group>";
+		};
+		EAA976EE1EC7A0FE008AFBFA /* Simon GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA976EF1EC7A0FE008AFBFA /* Simon_GameUITests.swift */,
+				EAA976F11EC7A0FE008AFBFA /* Info.plist */,
+			);
+			path = "Simon GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA976CB1EC7A0FE008AFBFA /* Simon Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA976F41EC7A0FE008AFBFA /* Build configuration list for PBXNativeTarget "Simon Game" */;
+			buildPhases = (
+				EAA976C81EC7A0FE008AFBFA /* Sources */,
+				EAA976C91EC7A0FE008AFBFA /* Frameworks */,
+				EAA976CA1EC7A0FE008AFBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simon Game";
+			productName = "Simon Game";
+			productReference = EAA976CC1EC7A0FE008AFBFA /* Simon Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA976DF1EC7A0FE008AFBFA /* Simon GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA976F71EC7A0FE008AFBFA /* Build configuration list for PBXNativeTarget "Simon GameTests" */;
+			buildPhases = (
+				EAA976DC1EC7A0FE008AFBFA /* Sources */,
+				EAA976DD1EC7A0FE008AFBFA /* Frameworks */,
+				EAA976DE1EC7A0FE008AFBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA976E21EC7A0FE008AFBFA /* PBXTargetDependency */,
+			);
+			name = "Simon GameTests";
+			productName = "Simon GameTests";
+			productReference = EAA976E01EC7A0FE008AFBFA /* Simon GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAA976EA1EC7A0FE008AFBFA /* Simon GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA976FA1EC7A0FE008AFBFA /* Build configuration list for PBXNativeTarget "Simon GameUITests" */;
+			buildPhases = (
+				EAA976E71EC7A0FE008AFBFA /* Sources */,
+				EAA976E81EC7A0FE008AFBFA /* Frameworks */,
+				EAA976E91EC7A0FE008AFBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA976ED1EC7A0FE008AFBFA /* PBXTargetDependency */,
+			);
+			name = "Simon GameUITests";
+			productName = "Simon GameUITests";
+			productReference = EAA976EB1EC7A0FE008AFBFA /* Simon GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA976C41EC7A0FE008AFBFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tyler Gotto";
+				TargetAttributes = {
+					EAA976CB1EC7A0FE008AFBFA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EAA976DF1EC7A0FE008AFBFA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAA976CB1EC7A0FE008AFBFA;
+					};
+					EAA976EA1EC7A0FE008AFBFA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAA976CB1EC7A0FE008AFBFA;
+					};
+				};
+			};
+			buildConfigurationList = EAA976C71EC7A0FE008AFBFA /* Build configuration list for PBXProject "Simon Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA976C31EC7A0FE008AFBFA;
+			productRefGroup = EAA976CD1EC7A0FE008AFBFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA976CB1EC7A0FE008AFBFA /* Simon Game */,
+				EAA976DF1EC7A0FE008AFBFA /* Simon GameTests */,
+				EAA976EA1EC7A0FE008AFBFA /* Simon GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA976CA1EC7A0FE008AFBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA976DA1EC7A0FE008AFBFA /* LaunchScreen.storyboard in Resources */,
+				EAA976D71EC7A0FE008AFBFA /* Assets.xcassets in Resources */,
+				EAA976D51EC7A0FE008AFBFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA976DE1EC7A0FE008AFBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA976E91EC7A0FE008AFBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA976C81EC7A0FE008AFBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA976D21EC7A0FE008AFBFA /* ViewController.swift in Sources */,
+				EAA976D01EC7A0FE008AFBFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA976DC1EC7A0FE008AFBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA976E51EC7A0FE008AFBFA /* Simon_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA976E71EC7A0FE008AFBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA976F01EC7A0FE008AFBFA /* Simon_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA976E21EC7A0FE008AFBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA976CB1EC7A0FE008AFBFA /* Simon Game */;
+			targetProxy = EAA976E11EC7A0FE008AFBFA /* PBXContainerItemProxy */;
+		};
+		EAA976ED1EC7A0FE008AFBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA976CB1EC7A0FE008AFBFA /* Simon Game */;
+			targetProxy = EAA976EC1EC7A0FE008AFBFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAA976D31EC7A0FE008AFBFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA976D41EC7A0FE008AFBFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA976D81EC7A0FE008AFBFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA976D91EC7A0FE008AFBFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA976F21EC7A0FE008AFBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA976F31EC7A0FE008AFBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA976F51EC7A0FE008AFBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Simon Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tgots7.Simon-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EAA976F61EC7A0FE008AFBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Simon Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tgots7.Simon-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EAA976F81EC7A0FE008AFBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Simon GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tgots7.Simon-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simon Game.app/Simon Game";
+			};
+			name = Debug;
+		};
+		EAA976F91EC7A0FE008AFBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Simon GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tgots7.Simon-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simon Game.app/Simon Game";
+			};
+			name = Release;
+		};
+		EAA976FB1EC7A0FE008AFBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Simon GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tgots7.Simon-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Simon Game";
+			};
+			name = Debug;
+		};
+		EAA976FC1EC7A0FE008AFBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Simon GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tgots7.Simon-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Simon Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA976C71EC7A0FE008AFBFA /* Build configuration list for PBXProject "Simon Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA976F21EC7A0FE008AFBFA /* Debug */,
+				EAA976F31EC7A0FE008AFBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA976F41EC7A0FE008AFBFA /* Build configuration list for PBXNativeTarget "Simon Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA976F51EC7A0FE008AFBFA /* Debug */,
+				EAA976F61EC7A0FE008AFBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAA976F71EC7A0FE008AFBFA /* Build configuration list for PBXNativeTarget "Simon GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA976F81EC7A0FE008AFBFA /* Debug */,
+				EAA976F91EC7A0FE008AFBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAA976FA1EC7A0FE008AFBFA /* Build configuration list for PBXNativeTarget "Simon GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA976FB1EC7A0FE008AFBFA /* Debug */,
+				EAA976FC1EC7A0FE008AFBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA976C41EC7A0FE008AFBFA /* Project object */;
+}
