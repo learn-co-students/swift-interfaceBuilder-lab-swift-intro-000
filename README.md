@@ -13,7 +13,7 @@ Now that you've learned how to get around Interface Builder, it's time to make y
 
 Simon is a pretty simple game, but at this point you may be thinking, "I can't write my own Simon game yet!" Well, maybe not _yet_, but you _will_ be able to soon. At any rate, for this lab, you're just going to be laying out the user interface—and that's something you know how to do!
 
-Here's what you're going to build in this lab:
+Here's what you're going to build in this lab: changed this line so it would allow me to request pull
 
 ![Finished product](http://i.imgur.com/PdO6gU6.png)
 
